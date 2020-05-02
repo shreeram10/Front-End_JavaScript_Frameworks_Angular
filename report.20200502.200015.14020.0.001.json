@@ -1,0 +1,646 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200502.200015.14020.0.001.json",
+    "dumpEventTime": "2020-05-02T20:00:15Z",
+    "dumpEventTimeStamp": "1588429815035",
+    "processId": 14020,
+    "threadId": null,
+    "cwd": "C:\\Users\\s.shridhar.patil\\Documents\\Front-End_JavaScript_Frameworks_Angular",
+    "commandLine": [
+      "node",
+      "C:\\Users\\s.shridhar.patil\\Documents\\Front-End_JavaScript_Frameworks_Angular\\node_modules\\.bin\\\\..\\lite-server\\bin\\lite-server"
+    ],
+    "nodejsVersion": "v12.16.2",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.2",
+      "v8": "7.8.279.23-node.34",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1e",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.2/node-v12.16.2-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.2/node-v12.16.2.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.2/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Enterprise",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i3-8100T CPU @ 3.10GHz",
+        "speed": 3096,
+        "user": 4446187,
+        "nice": 0,
+        "sys": 5127812,
+        "idle": 18085765,
+        "irq": 299953
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-8100T CPU @ 3.10GHz",
+        "speed": 3096,
+        "user": 4719468,
+        "nice": 0,
+        "sys": 4459781,
+        "idle": 18480265,
+        "irq": 32468
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-8100T CPU @ 3.10GHz",
+        "speed": 3096,
+        "user": 5001390,
+        "nice": 0,
+        "sys": 4531250,
+        "idle": 18126875,
+        "irq": 29984
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-8100T CPU @ 3.10GHz",
+        "speed": 3096,
+        "user": 5399218,
+        "nice": 0,
+        "sys": 4738968,
+        "idle": 17521328,
+        "irq": 22843
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "24:41:8c:19:ba:4f",
+        "address": "fe80::f44a:a2cd:5af4:75fe",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 8
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "24:41:8c:19:ba:4f",
+        "address": "192.168.0.107",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Microsoft IP-HTTPS Platform Interface",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "2002:aaf8:e3da:1018:10cb:7cc6:6abf:c2bb",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Microsoft IP-HTTPS Platform Interface",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "2002:aaf8:e3da:1018:513:2d10:c932:cde2",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Microsoft IP-HTTPS Platform Interface",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::10cb:7cc6:6abf:c2bb",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 7
+      }
+    ],
+    "host": "P3C-9493CV9"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7340a2309",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+11577"
+    },
+    {
+      "pc": "0x00007ff7340a6869",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+29337"
+    },
+    {
+      "pc": "0x00007ff7340a56e8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24856"
+    },
+    {
+      "pc": "0x00007ff7341cdd82",
+      "symbol": "v8::base::CPU::has_sse+59378"
+    },
+    {
+      "pc": "0x00007ff7349ea27e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff7349d2351",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff73489e8ac",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff7348a9ae0",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff7348a6604",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff73489be03",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff73489a474",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2452"
+    },
+    {
+      "pc": "0x00007ff7348bb67d",
+      "symbol": "v8::internal::Factory::NewFillerObject+61"
+    },
+    {
+      "pc": "0x00007ff7346213d1",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+1665"
+    },
+    {
+      "pc": "0x00007ff734e3730d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x00007ff734e89d3b",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+885115"
+    },
+    {
+      "pc": "0x00007ff734dbc2bc",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+42748"
+    },
+    {
+      "pc": "0x00007ff734dbc2bc",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+42748"
+    },
+    {
+      "pc": "0x00007ff734db55ec",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+14892"
+    },
+    {
+      "pc": "0x00007ff734db97f1",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+31793"
+    },
+    {
+      "pc": "0x00007ff734db93dc",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+30748"
+    },
+    {
+      "pc": "0x00007ff7348f7f63",
+      "symbol": "v8::internal::Execution::CallWasm+1395"
+    },
+    {
+      "pc": "0x00007ff7348f78e6",
+      "symbol": "v8::internal::Execution::Call+182"
+    },
+    {
+      "pc": "0x00007ff7349c895d",
+      "symbol": "v8::Function::Call+605"
+    },
+    {
+      "pc": "0x00007ff73424d188",
+      "symbol": "node::CallbackScope::~CallbackScope+1448"
+    },
+    {
+      "pc": "0x00007ff734246e73",
+      "symbol": "v8::internal::compiler::Operator::EffectOutputCount+179"
+    },
+    {
+      "pc": "0x00007ff7341c4d23",
+      "symbol": "v8::base::CPU::has_sse+22419"
+    },
+    {
+      "pc": "0x00007ff7341bb21c",
+      "symbol": "v8::internal::RegExpMacroAssemblerX64::stack_limit_slack+59628"
+    },
+    {
+      "pc": "0x00007ff73427d417",
+      "symbol": "uv_timer_stop+775"
+    },
+    {
+      "pc": "0x00007ff734279ecb",
+      "symbol": "uv_async_send+331"
+    },
+    {
+      "pc": "0x00007ff73427966c",
+      "symbol": "uv_loop_init+1212"
+    },
+    {
+      "pc": "0x00007ff734279834",
+      "symbol": "uv_run+244"
+    },
+    {
+      "pc": "0x00007ff734189681",
+      "symbol": "v8::internal::interpreter::BytecodeArrayWriter::source_position_table_builder+31713"
+    },
+    {
+      "pc": "0x00007ff7341f6223",
+      "symbol": "node::Start+275"
+    },
+    {
+      "pc": "0x00007ff734076a9c",
+      "symbol": "RC4_options+340380"
+    },
+    {
+      "pc": "0x00007ff734eef3f8",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+1300536"
+    },
+    {
+      "pc": "0x00007ffe2a5e7bd4",
+      "symbol": "BaseThreadInitThunk+20"
+    },
+    {
+      "pc": "0x00007ffe2bd4ce51",
+      "symbol": "RtlUserThreadStart+33"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2156675072,
+    "totalCommittedMemory": 2156675072,
+    "usedMemory": 2146232096,
+    "availableMemory": 45824256,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 4194304,
+        "committedMemory": 4194304,
+        "capacity": 2094912,
+        "used": 1250720,
+        "available": 844192
+      },
+      "old_space": {
+        "memorySize": 2147360768,
+        "committedMemory": 2147360768,
+        "capacity": 2142631144,
+        "used": 2140886216,
+        "available": 1744928
+      },
+      "code_space": {
+        "memorySize": 954368,
+        "committedMemory": 954368,
+        "capacity": 666336,
+        "used": 666336,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 1052672,
+        "committedMemory": 1052672,
+        "capacity": 617120,
+        "used": 617120,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 2801664,
+        "committedMemory": 2801664,
+        "capacity": 2776112,
+        "used": 2776112,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 2094912,
+        "used": 0,
+        "available": 2094912
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 154.484,
+    "kernelCpuSeconds": 246.625,
+    "cpuConsumptionPercent": 1.84392,
+    "maxRss": 3202637824,
+    "pageFaults": {
+      "IORequired": 1091539,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 815,
+      "writes": 6
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\Users\\s.shridhar.patil\\Documents\\Front-End_JavaScript_Frameworks_Angular",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\s.shridhar.patil\\AppData\\Roaming",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "P3C-9493CV9",
+    "ComSpec": "C:\\windows\\system32\\cmd.exe",
+    "dp0": "C:\\Users\\s.shridhar.patil\\Documents\\Front-End_JavaScript_Frameworks_Angular\\node_modules\\.bin\\",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "GOPATH": "c:\\Go\\bin",
+    "HOME": "C:\\Users\\s.shridhar.patil",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\s.shridhar.patil",
+    "INIT_CWD": "C:\\Users\\s.shridhar.patil\\Documents\\Front-End_JavaScript_Frameworks_Angular",
+    "LOCALAPPDATA": "C:\\Users\\s.shridhar.patil\\AppData\\Local",
+    "LOGONSERVER": "\\\\AMRDC4213",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_EXE": "C:\\Program Files\\nodejs\\\\node.exe",
+    "NPM_CLI_JS": "C:\\Program Files\\nodejs\\\\node_modules\\npm\\bin\\npm-cli.js",
+    "npm_config_access": "",
+    "npm_config_allow_same_version": "",
+    "npm_config_also": "",
+    "npm_config_always_auth": "",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"lite\"],\"original\":[\"run\",\"lite\"]}",
+    "npm_config_audit": "true",
+    "npm_config_audit_level": "low",
+    "npm_config_auth_type": "legacy",
+    "npm_config_before": "",
+    "npm_config_bin_links": "true",
+    "npm_config_browser": "",
+    "npm_config_ca": "",
+    "npm_config_cache": "C:\\Users\\s.shridhar.patil\\AppData\\Roaming\\npm-cache",
+    "npm_config_cache_lock_retries": "10",
+    "npm_config_cache_lock_stale": "60000",
+    "npm_config_cache_lock_wait": "10000",
+    "npm_config_cache_max": "Infinity",
+    "npm_config_cache_min": "10",
+    "npm_config_cafile": "",
+    "npm_config_cert": "",
+    "npm_config_cidr": "",
+    "npm_config_color": "true",
+    "npm_config_commit_hooks": "true",
+    "npm_config_depth": "Infinity",
+    "npm_config_description": "true",
+    "npm_config_dev": "",
+    "npm_config_dry_run": "",
+    "npm_config_editor": "notepad.exe",
+    "npm_config_engine_strict": "",
+    "npm_config_fetch_retries": "2",
+    "npm_config_fetch_retry_factor": "10",
+    "npm_config_fetch_retry_maxtimeout": "60000",
+    "npm_config_fetch_retry_mintimeout": "10000",
+    "npm_config_force": "",
+    "npm_config_format_package_lock": "true",
+    "npm_config_fund": "true",
+    "npm_config_git": "git",
+    "npm_config_git_tag_version": "true",
+    "npm_config_global": "",
+    "npm_config_globalconfig": "C:\\Users\\s.shridhar.patil\\AppData\\Roaming\\npm\\etc\\npmrc",
+    "npm_config_globalignorefile": "C:\\Users\\s.shridhar.patil\\AppData\\Roaming\\npm\\etc\\npmignore",
+    "npm_config_global_style": "",
+    "npm_config_group": "",
+    "npm_config_ham_it_up": "",
+    "npm_config_heading": "npm",
+    "npm_config_https_proxy": "",
+    "npm_config_if_present": "",
+    "npm_config_ignore_prepublish": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_init_author_email": "",
+    "npm_config_init_author_name": "",
+    "npm_config_init_author_url": "",
+    "npm_config_init_license": "ISC",
+    "npm_config_init_module": "C:\\Users\\s.shridhar.patil\\.npm-init.js",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_json": "",
+    "npm_config_key": "",
+    "npm_config_legacy_bundling": "",
+    "npm_config_link": "",
+    "npm_config_local_address": "",
+    "npm_config_loglevel": "notice",
+    "npm_config_logs_max": "10",
+    "npm_config_long": "",
+    "npm_config_maxsockets": "50",
+    "npm_config_message": "%s",
+    "npm_config_metrics_registry": "https://registry.npmjs.org/",
+    "npm_config_node_gyp": "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js",
+    "npm_config_node_options": "",
+    "npm_config_node_version": "12.16.2",
+    "npm_config_noproxy": "",
+    "npm_config_offline": "",
+    "npm_config_onload_script": "",
+    "npm_config_only": "",
+    "npm_config_optional": "true",
+    "npm_config_otp": "",
+    "npm_config_package_lock": "true",
+    "npm_config_package_lock_only": "",
+    "npm_config_parseable": "",
+    "npm_config_prefer_offline": "",
+    "npm_config_prefer_online": "",
+    "npm_config_prefix": "C:\\Users\\s.shridhar.patil\\AppData\\Roaming\\npm",
+    "npm_config_preid": "",
+    "npm_config_production": "",
+    "npm_config_progress": "true",
+    "npm_config_proxy": "",
+    "npm_config_read_only": "",
+    "npm_config_rebuild_bundle": "true",
+    "npm_config_registry": "https://registry.npmjs.org/",
+    "npm_config_rollback": "true",
+    "npm_config_save": "true",
+    "npm_config_save_bundle": "",
+    "npm_config_save_dev": "",
+    "npm_config_save_exact": "",
+    "npm_config_save_optional": "",
+    "npm_config_save_prefix": "^",
+    "npm_config_save_prod": "",
+    "npm_config_scope": "",
+    "npm_config_scripts_prepend_node_path": "warn-only",
+    "npm_config_script_shell": "",
+    "npm_config_searchexclude": "",
+    "npm_config_searchlimit": "20",
+    "npm_config_searchopts": "",
+    "npm_config_searchstaleness": "900",
+    "npm_config_send_metrics": "",
+    "npm_config_shell": "C:\\windows\\system32\\cmd.exe",
+    "npm_config_shrinkwrap": "true",
+    "npm_config_sign_git_commit": "",
+    "npm_config_sign_git_tag": "",
+    "npm_config_sso_poll_frequency": "500",
+    "npm_config_sso_type": "oauth",
+    "npm_config_strict_ssl": "true",
+    "npm_config_tag": "latest",
+    "npm_config_tag_version_prefix": "v",
+    "npm_config_timing": "",
+    "npm_config_tmp": "C:\\Users\\SSHRID~1.PAT\\AppData\\Local\\Temp",
+    "npm_config_umask": "0000",
+    "npm_config_unicode": "",
+    "npm_config_unsafe_perm": "true",
+    "npm_config_update_notifier": "true",
+    "npm_config_usage": "",
+    "npm_config_user": "",
+    "npm_config_userconfig": "C:\\Users\\s.shridhar.patil\\.npmrc",
+    "npm_config_user_agent": "npm/6.14.4 node/v12.16.2 win32 x64",
+    "npm_config_version": "",
+    "npm_config_versions": "",
+    "npm_config_viewer": "browser",
+    "npm_execpath": "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+    "npm_lifecycle_event": "lite",
+    "npm_lifecycle_script": "lite-server",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_author_name": "Shreeram Patil",
+    "npm_package_bugs_url": "https://github.com/shreeram10/Front-End_JavaScript_Frameworks_Angular/issues",
+    "npm_package_dependencies_lite": "^4.0.5",
+    "npm_package_description": "Angular project with git & npm",
+    "npm_package_devDependencies_lite_server": "^2.5.4",
+    "npm_package_gitHead": "9728c0ad41c46b57421992967e5da7d33e37b9b0",
+    "npm_package_homepage": "https://github.com/shreeram10/Front-End_JavaScript_Frameworks_Angular#readme",
+    "npm_package_license": "ISC",
+    "npm_package_main": "index.html",
+    "npm_package_name": "front-end_javascript_frameworks_angular",
+    "npm_package_readmeFilename": "README.md",
+    "npm_package_repository_type": "git",
+    "npm_package_repository_url": "git+https://github.com/shreeram10/Front-End_JavaScript_Frameworks_Angular.git",
+    "npm_package_scripts_lite": "lite-server",
+    "npm_package_scripts_start": "npm run lite",
+    "npm_package_scripts_test": "echo \"Error: no test specified\" && exit 1",
+    "npm_package_version": "1.0.0",
+    "NPM_PREFIX_NPM_CLI_JS": "C:\\Users\\s.shridhar.patil\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OneDrive": "C:\\Users\\s.shridhar.patil\\OneDrive - Accenture",
+    "OneDriveCommercial": "C:\\Users\\s.shridhar.patil\\OneDrive - Accenture",
+    "OS": "Windows_NT",
+    "Path": "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\npm-lifecycle\\node-gyp-bin;C:\\Users\\s.shridhar.patil\\Documents\\Front-End_JavaScript_Frameworks_Angular\\node_modules\\.bin;C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\npm-lifecycle\\node-gyp-bin;C:\\Users\\s.shridhar.patil\\Documents\\Front-End_JavaScript_Frameworks_Angular\\node_modules\\.bin;C:\\Program Files (x86)\\RSA SecurID Token Common;C:\\Program Files\\RSA SecurID Token Common;C:\\Users\\s.shridhar.patil\\Downloads\\Anypoint_Studio\\AnypointStudio;C:\\Program Files\\AdoptOpenJDK\\jdk-8.0.242.08-hotspot\\bin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Go\\bin;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\RSA SecurID Token Common\\;C:\\Users\\s.shridhar.patil\\go\\bin;C:\\Users\\s.shridhar.patil\\AppData\\Roaming\\npm;C:\\Program Files\\Sublime Text 3",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 158 Stepping 11, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "9e0b",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "%ProgramFiles%\\WindowsPowerShell\\Modules;C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft Azure Information Protection\\Powershell",
+    "PUBLIC": "C:\\Users\\Public",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\windows",
+    "TEMP": "C:\\Users\\SSHRID~1.PAT\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\SSHRID~1.PAT\\AppData\\Local\\Temp",
+    "UATDATA": "C:\\windows\\CCM\\UATData\\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77",
+    "USERDNSDOMAIN": "DIR.SVC.ACCENTURE.COM",
+    "USERDOMAIN": "DIR",
+    "USERDOMAIN_ROAMINGPROFILE": "DIR",
+    "USERNAME": "s.shridhar.patil",
+    "USERPROFILE": "C:\\Users\\s.shridhar.patil",
+    "windir": "C:\\windows",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\windows\\SYSTEM32\\ntdll.dll",
+    "C:\\windows\\System32\\KERNEL32.DLL",
+    "C:\\windows\\System32\\KERNELBASE.dll",
+    "C:\\windows\\System32\\SYSFER.DLL",
+    "C:\\windows\\System32\\WS2_32.dll",
+    "C:\\windows\\System32\\RPCRT4.dll",
+    "C:\\windows\\System32\\PSAPI.DLL",
+    "C:\\windows\\System32\\ADVAPI32.dll",
+    "C:\\windows\\System32\\msvcrt.dll",
+    "C:\\windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\windows\\System32\\sechost.dll",
+    "C:\\windows\\System32\\ucrtbase.dll",
+    "C:\\windows\\System32\\USER32.dll",
+    "C:\\windows\\System32\\win32u.dll",
+    "C:\\windows\\SYSTEM32\\USERENV.dll",
+    "C:\\windows\\System32\\GDI32.dll",
+    "C:\\windows\\System32\\profapi.dll",
+    "C:\\windows\\System32\\gdi32full.dll",
+    "C:\\windows\\System32\\msvcp_win.dll",
+    "C:\\windows\\System32\\CRYPT32.dll",
+    "C:\\windows\\System32\\MSASN1.dll",
+    "C:\\windows\\System32\\bcrypt.dll",
+    "C:\\windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\windows\\SYSTEM32\\WINMM.dll",
+    "C:\\windows\\SYSTEM32\\winmmbase.dll",
+    "C:\\windows\\System32\\cfgmgr32.dll",
+    "C:\\windows\\System32\\bcryptPrimitives.dll",
+    "C:\\windows\\System32\\IMM32.DLL",
+    "C:\\Program Files\\Avecto\\Privilege Guard Client\\PGHook.dll",
+    "C:\\windows\\System32\\shell32.dll",
+    "C:\\windows\\System32\\shcore.dll",
+    "C:\\windows\\System32\\combase.dll",
+    "C:\\windows\\System32\\windows.storage.dll",
+    "C:\\windows\\System32\\powrprof.dll",
+    "C:\\windows\\System32\\UMPDC.dll",
+    "C:\\windows\\System32\\shlwapi.dll",
+    "C:\\windows\\System32\\kernel.appcore.dll",
+    "C:\\windows\\System32\\cryptsp.dll",
+    "C:\\windows\\system32\\rsaenh.dll",
+    "C:\\windows\\SYSTEM32\\CRYPTBASE.dll",
+    "C:\\windows\\System32\\QIPCAP64.dll",
+    "C:\\windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\windows\\System32\\NSI.dll",
+    "C:\\windows\\system32\\uxtheme.dll",
+    "C:\\windows\\system32\\mswsock.dll",
+    "C:\\windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\windows\\system32\\napinsp.dll",
+    "C:\\windows\\system32\\pnrpnsp.dll",
+    "C:\\windows\\System32\\winrnr.dll",
+    "C:\\windows\\system32\\NLAapi.dll",
+    "C:\\windows\\system32\\wshbth.dll"
+  ]
+}
