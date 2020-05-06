@@ -1,0 +1,22 @@
+$lt-gray: #ddd;
+$background-dark: #512DA8;
+$background-light: rgb(118, 153, 250);
+$background-pale: #D1C4E9;
+$moredarkbackground: rgb(34, 62, 224);
+
+@mixin zero-margin($pad-up-down, $pad-left-right) {
+    margin: 0px auto;
+    padding: $pad-up-down $pad-left-right;
+}
+
+.jumbotron {
+    @include zero-margin(70px,30px);
+    background: $background-light ;
+    //background-image: url("/src/assets/images/ocean_background.jpg");
+    color:floralwhite;
+    min-height: 150px;
+}
+
+.active{
+    background-color: $moredarkbackground;
+}
